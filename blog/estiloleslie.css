@@ -1,0 +1,22 @@
+html {
+    font-family: "sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(191, 191, 207);
+}
+h1 {
+    color: rgb(72, 172, 69);
+    font-family: "broadway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    border-style: solid;
+}  
+h4 {
+    color: rgb(6, 92, 42);
+}
+img{
+    background-color:rgb(23, 92, 42);
+    border-radius: 4%; 
+    border-style:double;
+}
