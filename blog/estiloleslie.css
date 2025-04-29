@@ -16,7 +16,18 @@ h4 {
     color: rgb(6, 92, 42);
 }
 img{
-    background-color:rgb(23, 92, 42);
+    box-shadow: 10px 10px 20px #000;
     border-radius: 4%; 
-    border-style:double;
+    object-view-box: inset(0%);
+    transition: all 0.75s;   
 }
+img:hover {
+    object-view-box: inset(20%);
+}
+ .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    margin: 0px 0;
+  }
