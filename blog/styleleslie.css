@@ -1,22 +1,26 @@
 html {
-  font-family: "sans", sans-serif;
+  font-family: 'Georgia', serif;
   font-weight: 400;
   font-style: normal;
-  background-color: rgb(255, 242, 167);
 }
 h1 {
-  color: rgb(72, 172, 69);
-  font-family: "broadway", sans-serif;
+  color:#EA5B67;
+  font-family: 'Georgia', serif;
   font-weight: 400;
   font-style: normal;
   background-color: black;
   border-style: solid;
+  font-size: 40px;
+}
+h3{
+  font-size: 25px;
 }
 h4 {
-  color: rgb(72, 172, 69);
-  font-size: large;
+  color: #EA5B67;
+  font-size: 23px;
   background-color: black;
 }
+p {font-size: 20px;}
 img {
   box-shadow: 10px 10px 20px #000;
   border-radius: 4%;
