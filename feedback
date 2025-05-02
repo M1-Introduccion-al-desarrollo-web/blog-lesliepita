@@ -1,0 +1,17 @@
+Uso de <center> para el contenido:
+    El elemento <center> está obsoleto en HTML5, por lo que se recomienda utilizar CSS para centrar el contenido en lugar de depender de esta etiqueta. Podrías usar propiedades como text-align: center; o margin: 0 auto; en un contenedor <div>.
+Accesibilidad en las imágenes:
+    Actualmente, las imágenes no tienen descripciones detalladas en los atributos alt. Mejorar los alt de las imágenes para describir lo que se muestra (por ejemplo, "Sopa de wantán", "Olla hot pot con mariscos y verduras", etc.) haría que el contenido fuera accesible para personas con discapacidades visuales que usen lectores de pantalla.
+Uso de <li> fuera de <ul> o <ol>:
+    Los elementos <li> están siendo utilizados fuera de un contenedor <ul> (lista no ordenada) o <ol> (lista ordenada). Para mejorar la semántica del código y la accesibilidad, deberías envolver los elementos de lista en un contenedor de lista adecuado, como un <ul> o <ol>.
+Mejora de las direcciones con <address>:
+    Para mejorar la semántica de las direcciones físicas (como las ubicaciones de los restaurantes), podrías envolver las direcciones dentro de un elemento <address>. Esto ayuda a los motores de búsqueda y a los lectores de pantalla a identificar que se trata de información de contacto.
+Mejorar la estructura de los títulos:
+    Aunque los títulos de los restaurantes están marcados con <h4>, los títulos de las secciones como "Mis recomendaciones de restaurantes en l'Eixample" deberían ser <h2>, ya que este es el encabezado principal de esa sección. Usar encabezados en el orden adecuado mejora la jerarquía y la accesibilidad.
+Mejorar la visibilidad de los enlaces:
+    Aunque los enlaces a las ubicaciones de los restaurantes están bien marcados, sería útil agregar algún estilo visual (como un color de texto o subrayado) a los enlaces para hacerlos más visibles y facilitar la interacción de los usuarios con ellos.
+Reducción de uso del center para mejorar la accesibilidad:
+    Usar etiquetas como <div> y aplicar CSS para el alineado puede mejorar la accesibilidad y facilitar la personalización del diseño.
+Descripción más detallada de las imágenes en alt:
+    Las imágenes pueden tener descripciones más específicas en los atributos alt para dar contexto y ser accesibles para usuarios con discapacidad visual.
+
